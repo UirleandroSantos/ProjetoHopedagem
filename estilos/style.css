@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/*Inicio do cabeçalho*/
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    height: 70px;
+    align-items: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.logo img{
+    width: 60px;
+}
+.titulo-subtitulo{
+    line-height: 30px;
+}
+.titulo-subtitulo p{
+    color: blue;
+}
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+}
+/*Fim do cabaçalho*/
+
+/*Inicio do banner*/
+
+.banner{
+    background-color: rgb(91, 91, 242);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+}
+.apresentacao{
+    width: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/*Fim do banner*/
+
+/*Inicio da primeira inforamação*/
+.primeira-informacao{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    padding: 30px 0;
+}
+.botao-tabela-precos{
+    background-color: rgb(52, 52, 207);
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;text-decoration: none;
+    color: white;
+}
+.botao-tabela-precos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+.botao-tabela-precos:hover{
+    background-color: rgb(92, 92, 210);
+}
+/*Fim da primeira informação*/
+
+/*Inicio do hospedagens*/
+.hospedagens{
+    margin: 80px auto;
+}
+.hospedagens h1{
+    text-align: center;
+}
+.hospedagens h1 span{
+    color: rgb(64, 64, 204);
+}
+.tipos-hospedagem{
+    width: 1040px;
+    display: flex;
+    margin: 50px auto;
+}
+.facil-de-configurar, .servidores-online, .suporte-24h{
+    text-align: center;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+.hospedagens img{
+    width: 70px;
+    padding: 20px 0;
+}
+.hospedagens h3{
+    padding: 20px 0;
+}
+/*Fim do hospedagens*/
+
+/*Inicio do informações de hospedagens*/
+table{
+    margin: 50px auto;
+    box-shadow: 0 0 50px rgb(63, 63, 222);
+}
+.tabela-informativa h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.tabela-informativa h1 span{
+    color: rgb(55, 55, 232);
+}
+th img{
+    width: 100px;
+}
+tr th{
+    width: 200px;
+}
+
+tr td{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid rgba(200, 187, 187, 0.639);
+}
+.linha-impar{
+    background-color: rgba(200, 187, 187, 0.265);
+}
+/*Fim do informações de hospedagens*/
+
+/*Inicio da segunda informação*/
+.segunda-informacao{
+    background-color: rgb(77, 77, 228);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15em;
+    padding: 30px 0;
+}
+.botao-tabela-precos2{
+    background-color: rgb(136, 135, 135);
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;text-decoration: none;
+    color: white;
+}
+.botao-tabela-precos2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+.botao-tabela-precos2:hover{
+    background-color: rgb(55, 51, 51);
+}
+/*Fim da segunda informação*/
+
+/*Inicio do radape*/
+.contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 50px 0;
+}
+.logo-rodape img{
+    width: 60px;
+}
+.logo-rodape{
+    display: flex;
+    gap: 6px;
+}
+.informacoes-desenvolvedor{
+    background-color: rgb(222, 213, 213);
+    padding: 30px 0;
+    text-align: center;
+}
+.informacoes-desenvolvedor p{
+    letter-spacing: 2px;
+}
+.informacoes-desenvolvedor p span{
+    color: blue;
+}

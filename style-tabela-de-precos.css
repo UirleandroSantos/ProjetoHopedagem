@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/*Inicio do cabeçalho*/
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    padding: 20px 0;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    background-color: rgb(91, 91, 242);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.logo img{
+    width: 60px;
+}
+.titulo-subtitulo{
+    line-height: 30px;
+}
+.titulo-subtitulo p{
+    color: white;
+}
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+/*Fim do cabeçalho*/
+
+/*Inicio da tabela de preços*/
+table{
+    margin: 50px auto;
+}
+
+.primeira-coluna{
+    width: 340px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.206);
+    text-align: center;
+}
+.maior{
+    height: 100px;
+    background-color: white;
+}
+
+.titulo{
+    background-color: rgba(128, 128, 128, 0.206);
+    width: 200px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.088);
+}
+
+.vazio{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(56, 56, 246);
+    border-radius: 50%;
+    margin: auto;
+}
+
+.transparente{
+    background-color: white;
+}
+
+/*Inicio do rodape*/
+.informacoes-desenvolvedor{
+    background-color: rgb(222, 213, 213);
+    padding: 30px 0;
+    text-align: center;
+}
+.informacoes-desenvolvedor p{
+    letter-spacing: 2px;
+}
+.informacoes-desenvolvedor p span{
+    color: blue;
+}

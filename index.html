@@ -11,8 +11,8 @@
     <title>Soluções de hospedagens</title>
 </head>
 <body>
-    <header>
-        <div class="cabecalho">
+    <div class="container-geral">
+        <header class="cabecalho">
             <div class="logo">
                 <img src="./assets/logo-icone.png" alt="">
                 <div class="titulo-subtitulo">
@@ -20,14 +20,20 @@
                     <p>Soluções em hospedagem</p>
                 </div>
             </div>
-            <div class="links">
-                <a href="#informacoes">INFORMAÇÕES</a>
+            <div class="menu-container">
+                <div class="icon-menu" onclick="toggleLinks()">
+                    <!-- Ícone do menu aqui -->
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="links">
+                    <!-- Links do menu aqui -->
+                    <a href="#informacoes">INFORMAÇÕES</a>
                 <a href="#planos">PLANOS</a>
                 <a href="./pagina-tabela-de-precos.html">PREÇOS</a>
                 <a href="#contatos">CONTATO</a>
+                </div>
             </div>
-        </div>
-    </header>
+        </header>
     <main>
         <section class="banner">
             <div class="apresentacao">
@@ -164,5 +170,9 @@
             <p>Desenvolvido por <span>Uirleandro dos Santos</span></p>
         </div>
     </footer>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ab983dea67.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

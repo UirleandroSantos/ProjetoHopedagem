@@ -4,16 +4,26 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
 }
+
+.container-geral{
+    width: 90%;
+    margin: auto;
+}
 /*Inicio do cabeçalho*/
 .cabecalho{
+    /* background-color: red; */
     display: flex;
-    justify-content: center;
-    gap: 300px;
-    height: 70px;
+    justify-content: space-around;
     align-items: center;
-    margin: 20px auto;
-    flex-wrap: wrap;
+    padding: 1rem 0;
+    position: relative;
 }
+.icon-menu{
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
 .logo{
     display: flex;
     align-items: center;
@@ -28,12 +38,57 @@
 .titulo-subtitulo p{
     color: blue;
 }
+
+.links{
+    visibility: visible;
+    height: auto;
+    width: auto;
+}
+
 .links a{
     margin: 0 10px;
     text-decoration: none;
     color: black;
 }
 /*Fim do cabaçalho*/
+/* Responsivo do header */
+
+@media (max-width: 768px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .links {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+
+    .links-mostrar{
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        right: -10rem;
+    }
+    .icon-menu {
+        visibility: visible;
+        width: auto;
+        height: auto;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        font-size: 1.5rem;
+        padding: 1rem;
+        cursor: pointer; /* Altera o cursor para indicar que é clicável */
+    }
+    .menu-container:active .links {
+        visibility: visible;
+        height: auto;
+        width: auto;
+    }
+}
 
 /*Inicio do banner*/
 
@@ -200,3 +255,5 @@ tr td{
 .informacoes-desenvolvedor p span{
     color: blue;
 }
+
+/* Inicio responsivo cabeçalho */

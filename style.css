@@ -31,6 +31,7 @@
 }
 .logo img{
     width: 60px;
+    padding-left: 1rem;
 }
 .titulo-subtitulo{
     line-height: 30px;
@@ -54,6 +55,9 @@
 /* Responsivo do header */
 
 @media (max-width: 768px) {
+    *{
+        font-size: 52%;
+    }
     .cabecalho {
         justify-content: center;
         flex-direction: column;
@@ -95,18 +99,26 @@
 .banner{
     background-color: rgb(91, 91, 242);
     width: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px 0;
+    
 }
 .apresentacao{
-    width: 400px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 3.125rem;
+    margin: auto;
+    padding-left: 2rem;
+}
+
+.imagem-principal{
+    max-width: 100%;
+    margin: auto;
+}
+.imagem-principal img{
+    width: 100%;
 }
 /*Fim do banner*/
 
